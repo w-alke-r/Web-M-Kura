@@ -1,0 +1,89 @@
+.a{
+    height: 250px;
+    width: 200px;
+        margin-left: 150px;
+        font-size: 500%;
+        border: 5px solid red;
+        color: blue;
+        border-image: url(border.png) 50 round;
+        border-width: 10px;
+        background-color: white;
+        
+     
+     
+}
+.b
+{
+    position: relative ;/*relates to the object above*/
+    left: 500px;
+    background-color: blue;
+}
+.logo
+{
+    width: 250px;
+    position: relative;
+  /*  left: 0px;*/
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.navbar nav
+{
+    flex: 2;
+    text-align: right;
+    right: 0px;
+}
+nav ul{
+    display : inline block;
+    
+}
+.navbar nav ul li{
+display: inline-block;
+margin-right: 20px;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #555;
+    padding-left: 15px;
+}
+.container
+{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+
+}
+.hometxt{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hometxt h1{
+    font-size: 50px;
+    line-height:60px;
+    
+}
+.homebg
+{
+ /*   flex-basis: 50%;*/
+    min-width:300 px
+    
+}
+.homebg img{
+    max-width:150%;
+    width: 1500px;
+    padding: 1px 0;
+   position: fixed;
+    top: 20px;
+  /*  padding: 10px ;*/
+}
+.header
+{
+
+    background: radial-gradient(#fff,#ffd6d6);
+}
