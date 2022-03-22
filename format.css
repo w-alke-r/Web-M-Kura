@@ -1,23 +1,8 @@
-.a{
-    height: 250px;
-    width: 200px;
-        margin-left: 150px;
-        font-size: 500%;
-        border: 5px solid red;
-        color: blue;
-        border-image: url(border.png) 50 round;
-        border-width: 10px;
-        background-color: white;
-        
-     
-     
+*{
+    margin: 0;
+    padding: 0;
 }
-.b
-{
-    position: relative ;/*relates to the object above*/
-    left: 500px;
-    background-color: blue;
-}
+
 .logo
 {
     width: 250px;
@@ -29,61 +14,63 @@
     display: flex;
     align-items: center;
     padding: 20px;
+    position: relative;
 }
 .navbar nav
 {
-    flex: 2;
+    flex: 1;
     text-align: right;
     right: 0px;
+    position: relative;
 }
 nav ul{
     display : inline block;
-    
+    position: relative;
 }
 .navbar nav ul li{
 display: inline-block;
 margin-right: 20px;
+position: relative;
 }
 .navbar nav ul li a{
     text-decoration: none;
     color: #555;
     padding-left: 15px;
+    position: relative;
 }
 .container
 {
 max-width: 1300px;
-margin: auto;
 padding-left: 25px;
 padding-right: 25px;
-
-}
-.hometxt{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 .hometxt h1{
     font-size: 50px;
-    line-height:60px;
-    
-}
-.homebg
-{
- /*   flex-basis: 50%;*/
-    min-width:300 px
-    
+    line-height:20px;
+    position: relative; 
+    text-align: center;
 }
 .homebg img{
+    display: block;
     max-width:150%;
     width: 1500px;
-    padding: 1px 0;
-   position: fixed;
-    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*top: 0;*/
   /*  padding: 10px ;*/
+  
 }
 .header
 {
 
     background: radial-gradient(#fff,#ffd6d6);
+}
+.btn 
+{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: ;
 }
